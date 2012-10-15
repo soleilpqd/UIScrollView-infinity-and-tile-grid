@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B840BDC162AC1CC00AC3AE9 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B840BDA162AC1CC00AC3AE9 /* Test1ViewController.m */; };
+		6B840BDD162AC1CC00AC3AE9 /* Test1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B840BDB162AC1CC00AC3AE9 /* Test1ViewController.xib */; };
+		6B840BE2162AC79B00AC3AE9 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B840BE0162AC79B00AC3AE9 /* Test2ViewController.m */; };
+		6B840BE3162AC79B00AC3AE9 /* Test2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B840BE1162AC79B00AC3AE9 /* Test2ViewController.xib */; };
+		6B840BE8162AD76000AC3AE9 /* Earth360ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B840BE6162AD76000AC3AE9 /* Earth360ViewController.m */; };
+		6B840BE9162AD76000AC3AE9 /* Earth360ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B840BE7162AD76000AC3AE9 /* Earth360ViewController.xib */; };
+		8867EC69162572570041006B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8867EC68162572570041006B /* icon.png */; };
+		8877939C162280E0008FA6FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8877939B162280E0008FA6FA /* UIKit.framework */; };
+		8877939E162280E0008FA6FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8877939D162280E0008FA6FA /* Foundation.framework */; };
+		887793A0162280E0008FA6FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8877939F162280E0008FA6FA /* CoreGraphics.framework */; };
+		887793A6162280E0008FA6FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 887793A4162280E0008FA6FA /* InfoPlist.strings */; };
+		887793A8162280E0008FA6FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 887793A7162280E0008FA6FA /* main.m */; };
+		887793AC162280E0008FA6FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 887793AB162280E0008FA6FA /* AppDelegate.m */; };
+		887793AE162280E0008FA6FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 887793AD162280E0008FA6FA /* Default.png */; };
+		887793B0162280E0008FA6FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 887793AF162280E0008FA6FA /* Default@2x.png */; };
+		887793B2162280E0008FA6FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 887793B1162280E0008FA6FA /* Default-568h@2x.png */; };
+		887793B5162280E0008FA6FA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887793B4162280E0008FA6FA /* MasterViewController.m */; };
+		887793BB162280E0008FA6FA /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887793B9162280E0008FA6FA /* MasterViewController.xib */; };
+		887793D316228C27008FA6FA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 887793D216228C27008FA6FA /* images */; };
+		8887352C1627D602003A5338 /* FlexibleTileContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887352B1627D602003A5338 /* FlexibleTileContainerView.m */; };
+		88958DCE162532180085DC59 /* TileScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88958DCD162532180085DC59 /* TileScrollView.m */; };
+		88AB616A1623D0B70081054E /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AB61691623D0B70081054E /* libobjc.A.dylib */; };
+		88AB616E162405110081054E /* TileContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AB616D162405110081054E /* TileContainerView.m */; };
+		88B71138162BB7420055A996 /* TokyoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B71136162BB7420055A996 /* TokyoMapViewController.m */; };
+		88B71139162BB7420055A996 /* TokyoMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B71137162BB7420055A996 /* TokyoMapViewController.xib */; };
+		88B7113E162BCBB60055A996 /* TimeSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B7113C162BCBB60055A996 /* TimeSelectorViewController.m */; };
+		88B7113F162BCBB60055A996 /* TimeSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B7113D162BCBB60055A996 /* TimeSelectorViewController.xib */; };
+		88B73C0016258738006DA4F7 /* InfinityTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B73BFF16258738006DA4F7 /* InfinityTileView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B840BD9162AC1CC00AC3AE9 /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		6B840BDA162AC1CC00AC3AE9 /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		6B840BDB162AC1CC00AC3AE9 /* Test1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test1ViewController.xib; sourceTree = "<group>"; };
+		6B840BDF162AC79B00AC3AE9 /* Test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test2ViewController.h; path = myInfinityScroller/Test2ViewController.h; sourceTree = "<group>"; };
+		6B840BE0162AC79B00AC3AE9 /* Test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test2ViewController.m; path = myInfinityScroller/Test2ViewController.m; sourceTree = "<group>"; };
+		6B840BE1162AC79B00AC3AE9 /* Test2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Test2ViewController.xib; path = myInfinityScroller/Test2ViewController.xib; sourceTree = "<group>"; };
+		6B840BE5162AD76000AC3AE9 /* Earth360ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Earth360ViewController.h; sourceTree = "<group>"; };
+		6B840BE6162AD76000AC3AE9 /* Earth360ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Earth360ViewController.m; sourceTree = "<group>"; };
+		6B840BE7162AD76000AC3AE9 /* Earth360ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Earth360ViewController.xib; sourceTree = "<group>"; };
+		8867EC68162572570041006B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		88779397162280E0008FA6FA /* myInfinityScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myInfinityScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8877939B162280E0008FA6FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8877939D162280E0008FA6FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8877939F162280E0008FA6FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		887793A3162280E0008FA6FA /* myInfinityScroller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myInfinityScroller-Info.plist"; sourceTree = "<group>"; };
+		887793A5162280E0008FA6FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		887793A7162280E0008FA6FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		887793A9162280E0008FA6FA /* myInfinityScroller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myInfinityScroller-Prefix.pch"; sourceTree = "<group>"; };
+		887793AA162280E0008FA6FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		887793AB162280E0008FA6FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		887793AD162280E0008FA6FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		887793AF162280E0008FA6FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		887793B1162280E0008FA6FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		887793B3162280E0008FA6FA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		887793B4162280E0008FA6FA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		887793BA162280E0008FA6FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		887793D216228C27008FA6FA /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		8887352A1627D602003A5338 /* FlexibleTileContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexibleTileContainerView.h; sourceTree = "<group>"; };
+		8887352B1627D602003A5338 /* FlexibleTileContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexibleTileContainerView.m; sourceTree = "<group>"; };
+		88958DCC162532180085DC59 /* TileScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileScrollView.h; sourceTree = "<group>"; };
+		88958DCD162532180085DC59 /* TileScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileScrollView.m; sourceTree = "<group>"; };
+		88AB61691623D0B70081054E /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.A.dylib; path = usr/lib/libobjc.A.dylib; sourceTree = SDKROOT; };
+		88AB616C162405110081054E /* TileContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileContainerView.h; sourceTree = "<group>"; };
+		88AB616D162405110081054E /* TileContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileContainerView.m; sourceTree = "<group>"; };
+		88B71135162BB7420055A996 /* TokyoMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokyoMapViewController.h; sourceTree = "<group>"; };
+		88B71136162BB7420055A996 /* TokyoMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokyoMapViewController.m; sourceTree = "<group>"; };
+		88B71137162BB7420055A996 /* TokyoMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TokyoMapViewController.xib; sourceTree = "<group>"; };
+		88B7113B162BCBB60055A996 /* TimeSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeSelectorViewController.h; sourceTree = "<group>"; };
+		88B7113C162BCBB60055A996 /* TimeSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeSelectorViewController.m; sourceTree = "<group>"; };
+		88B7113D162BCBB60055A996 /* TimeSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeSelectorViewController.xib; sourceTree = "<group>"; };
+		88B73BFE16258738006DA4F7 /* InfinityTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfinityTileView.h; sourceTree = "<group>"; };
+		88B73BFF16258738006DA4F7 /* InfinityTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfinityTileView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88779394162280E0008FA6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AB616A1623D0B70081054E /* libobjc.A.dylib in Frameworks */,
+				8877939C162280E0008FA6FA /* UIKit.framework in Frameworks */,
+				8877939E162280E0008FA6FA /* Foundation.framework in Frameworks */,
+				887793A0162280E0008FA6FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B840BD6162ABF0F00AC3AE9 /* Tile view */ = {
+			isa = PBXGroup;
+			children = (
+				88B73BFC1625870C006DA4F7 /* Infinity list */,
+				88958DD0162534B70085DC59 /* Tile views */,
+			);
+			name = "Tile view";
+			sourceTree = "<group>";
+		};
+		6B840BD8162AC19500AC3AE9 /* Test1 */ = {
+			isa = PBXGroup;
+			children = (
+				6B840BD9162AC1CC00AC3AE9 /* Test1ViewController.h */,
+				6B840BDA162AC1CC00AC3AE9 /* Test1ViewController.m */,
+				6B840BDB162AC1CC00AC3AE9 /* Test1ViewController.xib */,
+			);
+			name = Test1;
+			sourceTree = "<group>";
+		};
+		6B840BDE162AC78100AC3AE9 /* Test2 */ = {
+			isa = PBXGroup;
+			children = (
+				6B840BDF162AC79B00AC3AE9 /* Test2ViewController.h */,
+				6B840BE0162AC79B00AC3AE9 /* Test2ViewController.m */,
+				6B840BE1162AC79B00AC3AE9 /* Test2ViewController.xib */,
+			);
+			name = Test2;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6B840BE4162AD74300AC3AE9 /* Earth 360 */ = {
+			isa = PBXGroup;
+			children = (
+				6B840BE5162AD76000AC3AE9 /* Earth360ViewController.h */,
+				6B840BE6162AD76000AC3AE9 /* Earth360ViewController.m */,
+				6B840BE7162AD76000AC3AE9 /* Earth360ViewController.xib */,
+			);
+			name = "Earth 360";
+			sourceTree = "<group>";
+		};
+		8877938C162280E0008FA6FA = {
+			isa = PBXGroup;
+			children = (
+				887793A1162280E0008FA6FA /* myInfinityScroller */,
+				8877939A162280E0008FA6FA /* Frameworks */,
+				88779398162280E0008FA6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88779398162280E0008FA6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88779397162280E0008FA6FA /* myInfinityScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8877939A162280E0008FA6FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88AB61691623D0B70081054E /* libobjc.A.dylib */,
+				8877939B162280E0008FA6FA /* UIKit.framework */,
+				8877939D162280E0008FA6FA /* Foundation.framework */,
+				8877939F162280E0008FA6FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		887793A1162280E0008FA6FA /* myInfinityScroller */ = {
+			isa = PBXGroup;
+			children = (
+				6B840BD6162ABF0F00AC3AE9 /* Tile view */,
+				887793D216228C27008FA6FA /* images */,
+				887793AA162280E0008FA6FA /* AppDelegate.h */,
+				887793AB162280E0008FA6FA /* AppDelegate.m */,
+				888735211627B5C4003A5338 /* Master */,
+				6B840BD8162AC19500AC3AE9 /* Test1 */,
+				6B840BDE162AC78100AC3AE9 /* Test2 */,
+				88B71133162BB7210055A996 /* Tokyo Map */,
+				88B7113A162BC9100055A996 /* Time selector */,
+				6B840BE4162AD74300AC3AE9 /* Earth 360 */,
+				887793A2162280E0008FA6FA /* Supporting Files */,
+			);
+			path = myInfinityScroller;
+			sourceTree = "<group>";
+		};
+		887793A2162280E0008FA6FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8867EC68162572570041006B /* icon.png */,
+				887793A3162280E0008FA6FA /* myInfinityScroller-Info.plist */,
+				887793A4162280E0008FA6FA /* InfoPlist.strings */,
+				887793A7162280E0008FA6FA /* main.m */,
+				887793A9162280E0008FA6FA /* myInfinityScroller-Prefix.pch */,
+				887793AD162280E0008FA6FA /* Default.png */,
+				887793AF162280E0008FA6FA /* Default@2x.png */,
+				887793B1162280E0008FA6FA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		888735211627B5C4003A5338 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				887793B3162280E0008FA6FA /* MasterViewController.h */,
+				887793B4162280E0008FA6FA /* MasterViewController.m */,
+				887793B9162280E0008FA6FA /* MasterViewController.xib */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		88958DD0162534B70085DC59 /* Tile views */ = {
+			isa = PBXGroup;
+			children = (
+				88AB616C162405110081054E /* TileContainerView.h */,
+				88AB616D162405110081054E /* TileContainerView.m */,
+				88958DCC162532180085DC59 /* TileScrollView.h */,
+				88958DCD162532180085DC59 /* TileScrollView.m */,
+			);
+			name = "Tile views";
+			sourceTree = "<group>";
+		};
+		88B71133162BB7210055A996 /* Tokyo Map */ = {
+			isa = PBXGroup;
+			children = (
+				88B71135162BB7420055A996 /* TokyoMapViewController.h */,
+				88B71136162BB7420055A996 /* TokyoMapViewController.m */,
+				88B71137162BB7420055A996 /* TokyoMapViewController.xib */,
+			);
+			name = "Tokyo Map";
+			sourceTree = "<group>";
+		};
+		88B7113A162BC9100055A996 /* Time selector */ = {
+			isa = PBXGroup;
+			children = (
+				88B7113B162BCBB60055A996 /* TimeSelectorViewController.h */,
+				88B7113C162BCBB60055A996 /* TimeSelectorViewController.m */,
+				88B7113D162BCBB60055A996 /* TimeSelectorViewController.xib */,
+			);
+			name = "Time selector";
+			sourceTree = "<group>";
+		};
+		88B73BFC1625870C006DA4F7 /* Infinity list */ = {
+			isa = PBXGroup;
+			children = (
+				8887352A1627D602003A5338 /* FlexibleTileContainerView.h */,
+				8887352B1627D602003A5338 /* FlexibleTileContainerView.m */,
+				88B73BFE16258738006DA4F7 /* InfinityTileView.h */,
+				88B73BFF16258738006DA4F7 /* InfinityTileView.m */,
+			);
+			name = "Infinity list";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88779396162280E0008FA6FA /* myInfinityScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887793C1162280E0008FA6FA /* Build configuration list for PBXNativeTarget "myInfinityScroller" */;
+			buildPhases = (
+				88779393162280E0008FA6FA /* Sources */,
+				88779394162280E0008FA6FA /* Frameworks */,
+				88779395162280E0008FA6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myInfinityScroller;
+			productName = myInfinityScroller;
+			productReference = 88779397162280E0008FA6FA /* myInfinityScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8877938E162280E0008FA6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Soleil;
+			};
+			buildConfigurationList = 88779391162280E0008FA6FA /* Build configuration list for PBXProject "myInfinityScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8877938C162280E0008FA6FA;
+			productRefGroup = 88779398162280E0008FA6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88779396162280E0008FA6FA /* myInfinityScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88779395162280E0008FA6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887793A6162280E0008FA6FA /* InfoPlist.strings in Resources */,
+				887793AE162280E0008FA6FA /* Default.png in Resources */,
+				887793B0162280E0008FA6FA /* Default@2x.png in Resources */,
+				887793B2162280E0008FA6FA /* Default-568h@2x.png in Resources */,
+				887793BB162280E0008FA6FA /* MasterViewController.xib in Resources */,
+				887793D316228C27008FA6FA /* images in Resources */,
+				8867EC69162572570041006B /* icon.png in Resources */,
+				6B840BDD162AC1CC00AC3AE9 /* Test1ViewController.xib in Resources */,
+				6B840BE3162AC79B00AC3AE9 /* Test2ViewController.xib in Resources */,
+				6B840BE9162AD76000AC3AE9 /* Earth360ViewController.xib in Resources */,
+				88B71139162BB7420055A996 /* TokyoMapViewController.xib in Resources */,
+				88B7113F162BCBB60055A996 /* TimeSelectorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88779393162280E0008FA6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887793A8162280E0008FA6FA /* main.m in Sources */,
+				887793AC162280E0008FA6FA /* AppDelegate.m in Sources */,
+				887793B5162280E0008FA6FA /* MasterViewController.m in Sources */,
+				88AB616E162405110081054E /* TileContainerView.m in Sources */,
+				88958DCE162532180085DC59 /* TileScrollView.m in Sources */,
+				88B73C0016258738006DA4F7 /* InfinityTileView.m in Sources */,
+				8887352C1627D602003A5338 /* FlexibleTileContainerView.m in Sources */,
+				6B840BDC162AC1CC00AC3AE9 /* Test1ViewController.m in Sources */,
+				6B840BE2162AC79B00AC3AE9 /* Test2ViewController.m in Sources */,
+				6B840BE8162AD76000AC3AE9 /* Earth360ViewController.m in Sources */,
+				88B71138162BB7420055A996 /* TokyoMapViewController.m in Sources */,
+				88B7113E162BCBB60055A996 /* TimeSelectorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		887793A4162280E0008FA6FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				887793A5162280E0008FA6FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		887793B9162280E0008FA6FA /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				887793BA162280E0008FA6FA /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		887793BF162280E0008FA6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		887793C0162280E0008FA6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		887793C2162280E0008FA6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myInfinityScroller/myInfinityScroller-Prefix.pch";
+				INFOPLIST_FILE = "myInfinityScroller/myInfinityScroller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		887793C3162280E0008FA6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myInfinityScroller/myInfinityScroller-Prefix.pch";
+				INFOPLIST_FILE = "myInfinityScroller/myInfinityScroller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88779391162280E0008FA6FA /* Build configuration list for PBXProject "myInfinityScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887793BF162280E0008FA6FA /* Debug */,
+				887793C0162280E0008FA6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887793C1162280E0008FA6FA /* Build configuration list for PBXNativeTarget "myInfinityScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887793C2162280E0008FA6FA /* Debug */,
+				887793C3162280E0008FA6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8877938E162280E0008FA6FA /* Project object */;
+}

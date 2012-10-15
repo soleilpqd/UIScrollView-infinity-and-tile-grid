@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cell_height</key>
+	<real>300</real>
+	<key>cell_width</key>
+	<real>300</real>
+	<key>cols</key>
+	<integer>8</integer>
+	<key>image_height</key>
+	<integer>3300</integer>
+	<key>image_width</key>
+	<integer>2205</integer>
+	<key>rows</key>
+	<integer>12</integer>
+</dict>
+</plist>
